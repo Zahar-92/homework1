@@ -144,6 +144,18 @@ public class One {
     public void setBoolean2One(Boolean boolean2One) {
         this.boolean2One = boolean2One;
     }
+    //преобразование типов:
+    double q = 3.89;
+    int p = (int) q; //Результат будет 3
+
+    int r = 4;
+    byte n = (byte)r;
+
+    long a = 4;
+    int h = (int) a;
+
+    double x = 56.9898;
+    int g = (int)x;  // g будет равно 56!
 
     public static void main(String[] args) {
         byte b = 127;
@@ -165,33 +177,54 @@ public class One {
         Boolean bli = true;
 
         Two two = new Two();
-        two.getByteTwo();
-        two.getChTwo();
-        two.getDblTwo();
-        two.getFlTwo();
-        two.getIntTwo();
-        two.getLongTwo();
+        two.setByteTwo((byte) 130);
+        two.setChTwo('w');
+        two.setDblTwo(3.14);
+        two.setFlTwo(36.6f);
+        two.setIntTwo(1024);
+        two.setLongTwo(5222525);
+        two.setShortTwo((short) 1234);
+        two.setCondition2Two(true);
+
+        two.setByte2Two((byte)-127);
+        two.setCh2Two('i');
+        two.setCondition2Two(true);
+        two.setDbl2Two(32.526);
+        two.setInt2Two(2_562_956);
+        two.setFl2Two(3.89652f);
+        two.setLong2Two(25446367571765L);
+        two.setShort2Two((short)-863259);
 
 
-        System.out.println("Примитивные типы данных класса main:");
-        System.out.println(b);
-        System.out.println(s);
-        System.out.println(i);
-        System.out.println(l);
-        System.out.println(f);
-        System.out.println(d);
-        System.out.println(ch);
-        System.out.println(bl);
 
-        System.out.println("\nОбертки класса main:");
-        System.out.println(b2);
-        System.out.println(s2);
-        System.out.println(i2);
-        System.out.println(l2);
-        System.out.println(f2);
-        System.out.println(d2);
-        System.out.println(ch2);
-        System.out.println(bli);
+        System.out.println("Локальные примитивные переменные метода main:");
+        System.out.println("byte - " + b);
+        System.out.println("short - " + s);
+        System.out.println("int - " + i);
+        System.out.println("long" + l);
+        System.out.println("floot - " + f);
+        System.out.println("double - " + d);
+        System.out.println("char - " + ch);
+        System.out.println("boolean - " + bl);
+
+        System.out.println("\nЛокальные обертки класса main:");
+        System.out.println("Byte - " + b2);
+        System.out.println("Short - " + s2);
+        System.out.println("Integer" + i2);
+        System.out.println("Long - " + l2);
+        System.out.println("Floot - " + f2);
+        System.out.println("Double - " + d2);
+        System.out.println("Character - " + ch2);
+        System.out.println("Boolean - " + bli);
+
+        System.out.println("\nГлобальные примитивные переменные класса Two объекта two:");
+        System.out.println ();
+        System.out.println ();
+        System.out.println ();
+        System.out.println ();
+        System.out.println ();
+        System.out.println ();
+        System.out.println ();
     }
 }
 

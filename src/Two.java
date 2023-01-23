@@ -17,7 +17,7 @@ public class Two {
     private Float fl2Two;
     private Double dbl2Two;
 
-    public boolean isConditionTwo() {
+    public boolean isConditionTwo(boolean b) {
         return conditionTwo;
     }
 
@@ -25,7 +25,7 @@ public class Two {
         this.conditionTwo = conditionTwo;
     }
 
-    public byte getByteTwo() {
+    public byte getByteTwo(byte b) {
         return byteTwo;
     }
 
@@ -33,7 +33,7 @@ public class Two {
         this.byteTwo = byteTwo;
     }
 
-    public short getShortTwo() {
+    public short getShortTwo(int i) {
         return shortTwo;
     }
 
@@ -41,7 +41,7 @@ public class Two {
         this.shortTwo = shortTwo;
     }
 
-    public int getIntTwo() {
+    public int getIntTwo(int i) {
         return intTwo;
     }
 
@@ -49,7 +49,7 @@ public class Two {
         this.intTwo = intTwo;
     }
 
-    public long getLongTwo() {
+    public long getLongTwo(int i) {
         return longTwo;
     }
 
@@ -57,7 +57,7 @@ public class Two {
         this.longTwo = longTwo;
     }
 
-    public char getChTwo() {
+    public char getChTwo(char w) {
         return chTwo;
     }
 
@@ -65,7 +65,7 @@ public class Two {
         this.chTwo = chTwo;
     }
 
-    public float getFlTwo() {
+    public float getFlTwo(double v) {
         return flTwo;
     }
 
@@ -73,7 +73,7 @@ public class Two {
         this.flTwo = flTwo;
     }
 
-    public double getDblTwo() {
+    public double getDblTwo(double v) {
         return dblTwo;
     }
 
@@ -81,7 +81,7 @@ public class Two {
         this.dblTwo = dblTwo;
     }
 
-    public Boolean getCondition2Two() {
+    public Boolean getCondition2Two(boolean b) {
         return condition2Two;
     }
 
@@ -89,7 +89,7 @@ public class Two {
         this.condition2Two = condition2Two;
     }
 
-    public Byte getByte2Two() {
+    public Byte getByte2Two(int i) {
         return byte2Two;
     }
 
@@ -97,7 +97,7 @@ public class Two {
         this.byte2Two = byte2Two;
     }
 
-    public Short getShort2Two() {
+    public Short getShort2Two(int i) {
         return short2Two;
     }
 
@@ -105,7 +105,7 @@ public class Two {
         this.short2Two = short2Two;
     }
 
-    public Integer getInt2Two() {
+    public Integer getInt2Two(int i) {
         return int2Two;
     }
 
@@ -113,7 +113,7 @@ public class Two {
         this.int2Two = int2Two;
     }
 
-    public Long getLong2Two() {
+    public Long getLong2Two(long l) {
         return long2Two;
     }
 
@@ -121,7 +121,7 @@ public class Two {
         this.long2Two = long2Two;
     }
 
-    public Character getCh2Two() {
+    public Character getCh2Two(String i) {
         return ch2Two;
     }
 
@@ -129,7 +129,7 @@ public class Two {
         this.ch2Two = ch2Two;
     }
 
-    public Float getFl2Two() {
+    public Float getFl2Two(double v) {
         return fl2Two;
     }
 
@@ -137,7 +137,7 @@ public class Two {
         this.fl2Two = fl2Two;
     }
 
-    public Double getDbl2Two() {
+    public Double getDbl2Two(int i) {
         return dbl2Two;
     }
 
