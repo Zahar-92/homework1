@@ -184,7 +184,7 @@ public class One {
         two.setIntTwo(1024);
         two.setLongTwo(5222525);
         two.setShortTwo((short) 1234);
-        two.setCondition2Two(true);
+        two.setConditionTwo(false);
 
         two.setByte2Two((byte)-127);
         two.setCh2Two('i');
@@ -218,13 +218,34 @@ public class One {
         System.out.println("Boolean - " + bli);
 
         System.out.println("\nГлобальные примитивные переменные класса Two объекта two:");
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
-        System.out.println ();
+        System.out.println ("byte - " + two.getByte2Two());
+        System.out.println("short - " + two.getShort2Two());
+        System.out.println("int - " + two.getInt2Two());
+        System.out.println("long" + two.getLong2Two());
+        System.out.println("floot - " + two.getFl2Two());
+        System.out.println("double - " + two.getDbl2Two());
+        System.out.println("char - " + two.getCh2Two());
+
+        System.out.println("\nГлобальные обертки класса Two объекта two:");
+        System.out.println ("Byte - " + two.getByteTwo());
+        System.out.println("Short - " + two.getShortTwo());
+        System.out.println("Integer - " + two.getIntTwo());
+        System.out.println("Long" + two.getLongTwo());
+        System.out.println("Floot - " + two.getFlTwo());
+        System.out.println("Double - " + two.getDblTwo());
+        System.out.println("Character - " + two.getChTwo());
+        System.out.println("Boolean - " + two.getCondition2Two());
+
+        System.out.println("\nЛокальные примитивные переменные класса One т.к. не заданы будут иметь по умолчанию следующие значения:");
+        System.out.println ("byteOne - 0");
+        System.out.println("short - " + 0);
+        System.out.println("int - " + 0);
+        System.out.println("long" + 0l);
+        System.out.println("floot - " + 0.0f);
+        System.out.println("double - " + 0.0);
+        System.out.println("char - + \u0000");
+
+        System.out.println("\nЛокальные обертки класса One т.к. не заданы будут иметь по умолчанию будут null");
     }
 }
 
