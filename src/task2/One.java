@@ -1,3 +1,5 @@
+package task2;
+
 public class One {
     private byte byteOne;
     private short shortOne;
@@ -217,7 +219,7 @@ public class One {
         System.out.println("Character - " + ch2);
         System.out.println("Boolean - " + bli);
 
-        System.out.println("\nГлобальные примитивные переменные класса Two объекта two:");
+        System.out.println("\nГлобальные примитивные переменные класса task2.Two объекта two:");
         System.out.println ("byte - " + two.getByte2Two());
         System.out.println("short - " + two.getShort2Two());
         System.out.println("int - " + two.getInt2Two());
@@ -226,7 +228,7 @@ public class One {
         System.out.println("double - " + two.getDbl2Two());
         System.out.println("char - " + two.getCh2Two());
 
-        System.out.println("\nГлобальные обертки класса Two объекта two:");
+        System.out.println("\nГлобальные обертки класса task2.Two объекта two:");
         System.out.println ("Byte - " + two.getByteTwo());
         System.out.println("Short - " + two.getShortTwo());
         System.out.println("Integer - " + two.getIntTwo());
@@ -236,7 +238,7 @@ public class One {
         System.out.println("Character - " + two.getChTwo());
         System.out.println("Boolean - " + two.getCondition2Two());
 
-        System.out.println("\nЛокальные примитивные переменные класса One т.к. не заданы будут иметь по умолчанию следующие значения:");
+        System.out.println("\nЛокальные примитивные переменные класса task2.One т.к. не заданы будут иметь по умолчанию следующие значения:");
         System.out.println ("byteOne - 0");
         System.out.println("short - " + 0);
         System.out.println("int - " + 0);
@@ -245,7 +247,7 @@ public class One {
         System.out.println("double - " + 0.0);
         System.out.println("char - + \u0000");
 
-        System.out.println("\nЛокальные обертки класса One т.к. не заданы будут иметь по умолчанию будут null");
+        System.out.println("\nЛокальные обертки класса task2.One т.к. не заданы будут иметь по умолчанию будут null");
     }
 }
 

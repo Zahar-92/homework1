@@ -1,3 +1,5 @@
+package task2;
+
 public class Two {
     private boolean conditionTwo;
     private byte byteTwo;
