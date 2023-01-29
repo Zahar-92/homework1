@@ -4,14 +4,12 @@ import java.util.Random;
 
 public class Main {
    public static void main(String[] args) {
-      System.out.println("Цикл№1 WHILE:");
+      System.out.println("\nЦикл№1 WHILE:");
    Runner runner = new Runner();
    runner.catHome();
 
-
-
             //Во втором цикле for создаем 10 котиков, вводим их возраст и имя через сеттер, и   выводим в консоль через геттер.
-      System.out.println("Цикл№2 FOR:");
+      System.out.println("\nЦикл№2 FOR:");
       runner.setName("Котяра");
       runner.setAge(1);
       for (int j = 0; j<10; j++) {
@@ -60,7 +58,7 @@ public class Main {
       }
 
       //Третий цикл do while создает 10 котиков вводит имя и возраст через конструктор.Выводим в консоль.
-      System.out.println("Цикл №3 DO While:");
+      System.out.println("\nЦикл №3 DO While:");
       Animal animal = new Animal();
       animal.nameCat = "One";
       animal.ageCat = 4;
@@ -100,8 +98,23 @@ public class Main {
          f++;
          System.out.println("Имя- " + animal10.nameCat + " ,Возраст- " + animal10.ageCat);
       } while (f <= 10);
+
+      //В четвертом цикле foreach выводим  массив из пяти котиков, у них выводим имя и возраст.
+      System.out.println("\nЦикл №4 Foreach:");
+
+      String[] cats = new String[5];
+      cats[0] = "Муська";
+      cats[1] = "Охотник";
+      cats[2] = "Котька";
+      cats[3] = "Солнышко";
+      cats[4] = "Душка";
+      int[] ages = new int[5];
+      ages[0] = 2;
+      ages[1] = 5;
+      ages[2] = 1;
+      ages[3] = 10;
+      ages[4] = 9;
+
    }
-
-
 
 }
