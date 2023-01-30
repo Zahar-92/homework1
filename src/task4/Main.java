@@ -102,19 +102,11 @@ public class Main {
       //В четвертом цикле foreach выводим  массив из пяти котиков, у них выводим имя и возраст.
       System.out.println("\nЦикл №4 Foreach:");
 
-      String[] cats = new String[5];
-      cats[0] = "Муська";
-      cats[1] = "Охотник";
-      cats[2] = "Котька";
-      cats[3] = "Солнышко";
-      cats[4] = "Душка";
-      int[] ages = new int[5];
-      ages[0] = 2;
-      ages[1] = 5;
-      ages[2] = 1;
-      ages[3] = 10;
-      ages[4] = 9;
-
+      Random random = new Random();
+      int age = random.nextInt(29);
+      String[] cats = {"Муська", "Охотник", "Котька", "Солнышко", "Душка"};
+        for (String cat : cats){
+           System.out.println("Имя- " + cat + " Возраст- " + random.nextInt(29));
+       }
    }
-
 }

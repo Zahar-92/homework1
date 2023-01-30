@@ -4,7 +4,6 @@ public class Animal {
     String nameCat;
     int ageCat;
 
-
     public Animal (){}
     public Animal (String myCat, int myAgeCat){
         nameCat = myCat;
@@ -12,4 +11,11 @@ public class Animal {
 
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "nameCat='" + nameCat + '\'' +
+                ", ageCat=" + ageCat +
+                '}';
+    }
 }

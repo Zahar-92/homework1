@@ -37,7 +37,13 @@ public class Runner {
            i++;
                   }
            }
+           //Сгенерировать метод  toString
 
-            }
-
-
+    @Override
+    public String toString() {
+        return "Runner{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
